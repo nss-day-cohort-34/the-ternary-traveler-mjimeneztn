@@ -13,12 +13,10 @@ const data = {
  getExpandedInterests() {
    return fetch("http://localhost:8088/interests?_expand=place")
    .then(response => response.json())
-   // .then(results => console.log(results))
-   // .then(test => console.log(test))
+
 
  },
  postNewInterest(newInterestToSave) {
-   // We want to return this fetch request so that at the point it is called, we can take advantage of the asynchronous nature of promises to wait for this to be done before getting the latest data and rerendering the DOM.
    return fetch("http://localhost:8088/interests", {
      method: "POST",
      headers: {

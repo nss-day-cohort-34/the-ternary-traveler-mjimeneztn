@@ -50,13 +50,7 @@ const interests = {
    let deletePoiButton = document.createElement("button")
    deletePoiButton.textContent = "Delete"
    deletePoiButton.addEventListener("click", deleteConfirmation)
-   // () => {
-   //   let poiId = event.target.parentNode.id.split("--")[1]
-   //   data.deleteInterest(poiId)
-   //     .then(response => {
-   //       poiList.outputPoi()
-   //     })
-   // })
+
    interestArticle.appendChild(poiName)
    interestArticle.appendChild(poiDescriptionHeader)
    interestArticle.appendChild(poiDescription)
