@@ -1,0 +1,53 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "name": "Leaning Tower of Pisa",
+      "description": "Freestanding bell tower with unstable foundation",
+      "cost": "$not sure",
+      "placeId": 1,
+      "review": "You haven't reviewed Leaning Tower of Pisa yet. Press the Edit button to share your thoughts!",
+      "id": 1
+    },
+    {
+      "name": "Haus Hiltl",
+      "description": "Vegetarian Restaurant in Zurich",
+      "cost": "$80",
+      "placeId": 2,
+      "review": "You haven't reviewed Haus Hiltl yet. Press the Edit button to share your thoughts!",
+      "id": 2
+    },
+    {
+      "name": "Louvre Museum",
+      "description": "largest museum/historic monument",
+      "cost": "$30",
+      "placeId": 3,
+      "review": "Mona Lisa was so cool",
+      "id": 3
+    },
+    {
+      "name": "TESTing",
+      "description": "testing",
+      "cost": "$32",
+      "placeId": 2,
+      "review": "it was awesome",
+      "id": 4
+    }
+  ]
+}
